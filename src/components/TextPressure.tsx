@@ -122,7 +122,7 @@ const TextPressure: React.FC<TextPressureProps> = ({
 
       if (titleRef.current) {
         const titleRect = titleRef.current.getBoundingClientRect();
-        const maxDist = titleRect.width / 2;
+        const maxDist = titleRect.width / 3;
 
         spansRef.current.forEach((span) => {
           if (!span) return;
@@ -215,6 +215,9 @@ const TextPressure: React.FC<TextPressureProps> = ({
           </span>
         ))}
       </h1>
+      <p className="font-light text-white flex justify-center mt-14">
+        Together, We move.
+      </p>
     </div>
   );
 };
