@@ -12,7 +12,7 @@ interface DockProps {
 const DOCK_ITEMS = ["Home", "Events", "About", "Contact"];
 
 const Dock = ({
-  position = "bottom",
+  position = "top",
   collapsible = false,
   responsive = "bottom",
 }: DockProps) => {
