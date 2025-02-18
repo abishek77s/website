@@ -1,21 +1,15 @@
-// Note:
-// Make sure the font you're using supports all the variable properties.
-// React Bits does not take responsibility for the fonts used
-
+import { Contact } from "./components/Contact";
 import Dock from "./components/Dock";
-import bg from "./assets/bg3.webp";
+import EventDetails from "./components/EventDetails";
+import Footer from "./components/Footer,";
 
 function App() {
   return (
-    <div
-      className="bg-black font-geist min-h-screen relative"
-      style={{
-        backgroundImage: `url(${bg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    <div className="">
       <Dock />
+      <EventDetails />
+      <Contact />
+      <Footer />
     </div>
   );
 }
