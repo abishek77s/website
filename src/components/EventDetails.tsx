@@ -79,7 +79,7 @@ const EventsDetail: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto mt-36 lg:px-16 sm:px-8 px-12">
+    <div className="container mx-auto  lg:px-16 sm:px-8 px-12">
       {/* Tab Navigation */}
       <div className="flex justify-center space-x-4 mb-8 mt-12">
         {eventCategories.map((category, index) => (

@@ -18,7 +18,6 @@ export const Contact = () => {
         <HeaderBlock />
         <SocialsBlock />
 
-        <LocationBlock />
         <ContactBlock1 />
       </motion.div>
     </div>
@@ -143,17 +142,11 @@ const SocialsBlock = () => (
   </>
 );
 
-const LocationBlock = () => (
-  <Block className="col-span-12 flex flex-col items-center gap-4 md:col-span-6">
-    <p className="text-center text-lg text-zinc-400"></p>
-  </Block>
-);
-
 const ContactBlock1 = () => (
-  <Block className="col-span-12 flex flex-col items-center gap-4 md:col-span-6">
-    <p className="text-center text-lg text-zinc-400">For Queries Contact </p>
-    <p className="text-center text-lg text-zinc-400">+91 9629613455 </p>
-    <p className="text-center text-lg text-zinc-400">+91 9345997736 </p>
+  <Block className="col-span-12 flex flex-col items-center gap-4 md:col-span-12">
+    <p className="text-center text-lg text-zinc-400">
+      For Queries Contact 9345997736 , 9629613455{" "}
+    </p>
   </Block>
 );
 
